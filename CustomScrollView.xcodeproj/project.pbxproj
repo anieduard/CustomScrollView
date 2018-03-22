@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		49AABF8FBADE5833436D0444 /* libPods-CustomScrollViewTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9319A73C7E09D6E6FD0CC456 /* libPods-CustomScrollViewTests.a */; };
 		5D3A782818FF1912006CCAB3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D3A782718FF1912006CCAB3 /* Foundation.framework */; };
 		5D3A782A18FF1912006CCAB3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D3A782918FF1912006CCAB3 /* CoreGraphics.framework */; };
 		5D3A782C18FF1912006CCAB3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D3A782B18FF1912006CCAB3 /* UIKit.framework */; };
@@ -21,6 +22,7 @@
 		5D3A785118FF1912006CCAB3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5D3A784F18FF1912006CCAB3 /* InfoPlist.strings */; };
 		5D3A785318FF1912006CCAB3 /* CustomScrollViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D3A785218FF1912006CCAB3 /* CustomScrollViewTests.m */; };
 		5D3A785E18FF1923006CCAB3 /* CustomScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D3A785D18FF1923006CCAB3 /* CustomScrollView.m */; };
+		CE15034621EC9C8792C513F3 /* libPods-CustomScrollView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 782E5786D82316CFD3DC1789 /* libPods-CustomScrollView.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,12 @@
 		5D3A785218FF1912006CCAB3 /* CustomScrollViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomScrollViewTests.m; sourceTree = "<group>"; };
 		5D3A785C18FF1923006CCAB3 /* CustomScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomScrollView.h; sourceTree = "<group>"; };
 		5D3A785D18FF1923006CCAB3 /* CustomScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomScrollView.m; sourceTree = "<group>"; };
+		5FC521AF354E86BB2859505E /* Pods-CustomScrollViewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomScrollViewTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CustomScrollViewTests/Pods-CustomScrollViewTests.release.xcconfig"; sourceTree = "<group>"; };
+		6CDCE584F1A2F0E46BCCEFBF /* Pods-CustomScrollViewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomScrollViewTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CustomScrollViewTests/Pods-CustomScrollViewTests.debug.xcconfig"; sourceTree = "<group>"; };
+		782E5786D82316CFD3DC1789 /* libPods-CustomScrollView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CustomScrollView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9319A73C7E09D6E6FD0CC456 /* libPods-CustomScrollViewTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CustomScrollViewTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A35D631425C01B3E9AF84F21 /* Pods-CustomScrollView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomScrollView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CustomScrollView/Pods-CustomScrollView.debug.xcconfig"; sourceTree = "<group>"; };
+		F6EE98D5DF5DB480EEC2FE78 /* Pods-CustomScrollView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomScrollView.release.xcconfig"; path = "Pods/Target Support Files/Pods-CustomScrollView/Pods-CustomScrollView.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +72,7 @@
 				5D3A782A18FF1912006CCAB3 /* CoreGraphics.framework in Frameworks */,
 				5D3A782C18FF1912006CCAB3 /* UIKit.framework in Frameworks */,
 				5D3A782818FF1912006CCAB3 /* Foundation.framework in Frameworks */,
+				CE15034621EC9C8792C513F3 /* libPods-CustomScrollView.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +83,7 @@
 				5D3A784718FF1912006CCAB3 /* XCTest.framework in Frameworks */,
 				5D3A784918FF1912006CCAB3 /* UIKit.framework in Frameworks */,
 				5D3A784818FF1912006CCAB3 /* Foundation.framework in Frameworks */,
+				49AABF8FBADE5833436D0444 /* libPods-CustomScrollViewTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +97,7 @@
 				5D3A784C18FF1912006CCAB3 /* CustomScrollViewTests */,
 				5D3A782618FF1912006CCAB3 /* Frameworks */,
 				5D3A782518FF1912006CCAB3 /* Products */,
+				8E084B63A6313572ADEBECA5 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +117,8 @@
 				5D3A782918FF1912006CCAB3 /* CoreGraphics.framework */,
 				5D3A782B18FF1912006CCAB3 /* UIKit.framework */,
 				5D3A784618FF1912006CCAB3 /* XCTest.framework */,
+				782E5786D82316CFD3DC1789 /* libPods-CustomScrollView.a */,
+				9319A73C7E09D6E6FD0CC456 /* libPods-CustomScrollViewTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -154,6 +167,17 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		8E084B63A6313572ADEBECA5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A35D631425C01B3E9AF84F21 /* Pods-CustomScrollView.debug.xcconfig */,
+				F6EE98D5DF5DB480EEC2FE78 /* Pods-CustomScrollView.release.xcconfig */,
+				6CDCE584F1A2F0E46BCCEFBF /* Pods-CustomScrollViewTests.debug.xcconfig */,
+				5FC521AF354E86BB2859505E /* Pods-CustomScrollViewTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -161,9 +185,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5D3A785618FF1912006CCAB3 /* Build configuration list for PBXNativeTarget "CustomScrollView" */;
 			buildPhases = (
+				C5B1C662EFB05D8FA4CA12F5 /* [CP] Check Pods Manifest.lock */,
 				5D3A782018FF1912006CCAB3 /* Sources */,
 				5D3A782118FF1912006CCAB3 /* Frameworks */,
 				5D3A782218FF1912006CCAB3 /* Resources */,
+				B9CCD20A01E075D6E5FA1D45 /* [CP] Embed Pods Frameworks */,
+				2CC7F332AD4C6885965F9C4D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -178,9 +205,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5D3A785918FF1912006CCAB3 /* Build configuration list for PBXNativeTarget "CustomScrollViewTests" */;
 			buildPhases = (
+				BF79772836D7C88881619B7C /* [CP] Check Pods Manifest.lock */,
 				5D3A784118FF1912006CCAB3 /* Sources */,
 				5D3A784218FF1912006CCAB3 /* Frameworks */,
 				5D3A784318FF1912006CCAB3 /* Resources */,
+				FCDB32143D9D94B2988E2C53 /* [CP] Embed Pods Frameworks */,
+				995EF803667392E7A6EA7F79 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -198,9 +228,12 @@
 		5D3A781C18FF1912006CCAB3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = "Ole Begemann";
 				TargetAttributes = {
+					5D3A782318FF1912006CCAB3 = {
+						DevelopmentTeam = J6ZM4T69MX;
+					};
 					5D3A784418FF1912006CCAB3 = {
 						TestTargetID = 5D3A782318FF1912006CCAB3;
 					};
@@ -244,6 +277,105 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2CC7F332AD4C6885965F9C4D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CustomScrollView/Pods-CustomScrollView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		995EF803667392E7A6EA7F79 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CustomScrollViewTests/Pods-CustomScrollViewTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9CCD20A01E075D6E5FA1D45 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CustomScrollView/Pods-CustomScrollView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF79772836D7C88881619B7C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CustomScrollViewTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5B1C662EFB05D8FA4CA12F5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CustomScrollView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FCDB32143D9D94B2988E2C53 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CustomScrollViewTests/Pods-CustomScrollViewTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5D3A782018FF1912006CCAB3 /* Sources */ = {
@@ -303,18 +435,30 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -327,7 +471,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -341,25 +485,36 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -367,12 +522,15 @@
 		};
 		5D3A785718FF1912006CCAB3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A35D631425C01B3E9AF84F21 /* Pods-CustomScrollView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = J6ZM4T69MX;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CustomScrollView/CustomScrollView-Prefix.pch";
 				INFOPLIST_FILE = "CustomScrollView/CustomScrollView-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.olebegemann.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -380,12 +538,15 @@
 		};
 		5D3A785818FF1912006CCAB3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6EE98D5DF5DB480EEC2FE78 /* Pods-CustomScrollView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = J6ZM4T69MX;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CustomScrollView/CustomScrollView-Prefix.pch";
 				INFOPLIST_FILE = "CustomScrollView/CustomScrollView-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.olebegemann.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -393,6 +554,7 @@
 		};
 		5D3A785A18FF1912006CCAB3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CDCE584F1A2F0E46BCCEFBF /* Pods-CustomScrollViewTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CustomScrollView.app/CustomScrollView";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -407,6 +569,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "CustomScrollViewTests/CustomScrollViewTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.olebegemann.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -415,6 +578,7 @@
 		};
 		5D3A785B18FF1912006CCAB3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FC521AF354E86BB2859505E /* Pods-CustomScrollViewTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CustomScrollView.app/CustomScrollView";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -425,6 +589,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CustomScrollView/CustomScrollView-Prefix.pch";
 				INFOPLIST_FILE = "CustomScrollViewTests/CustomScrollViewTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.olebegemann.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
